@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    width: 1366px;
+}
+
+.div_one {
+    width: 50%;
+    height: 80px;
+    background: #9C9F00;
+    border-style: solid;
+    border-color: #FFCF88;
+    border-width: 10px;
+}
+
+.div_two {
+    width: 50%;
+    height: 80px;
+    background: #068DC7;
+    border: solid 10px #FFCF88;
+    /* Função "border" costomiza as três propriedades da borda (não importa a ordem)*/
+    border-left: none;
+    /* Propriedade para cancelar a borda esquerda*/
+}
+
+.section_one {
+    width: 1366px;
+    height: 110px;
+    background: #E20000;
+}
+
+.section_two {
+    width: 1366px;
+    height: 280px;
+    left: 0px;
+    top: 210px;
+    background: #D7D093;
+}
+
+.footer_one {
+    position: absolute;
+    width: 456px;
+    height: 230px;
+    left: 0px;
+    background: #1B96DB;
+}
+
+.footer_two {
+    position: absolute;
+    width: 456px;
+    height: 230px;
+    left: 455px;
+    background: #6C0568;
+}
+
+.footer_three {
+    position: absolute;
+    width: 455px;
+    height: 230px;
+    left: 911px;
+    background: #7063C2;
+}
